@@ -25,7 +25,7 @@ local plugins = {
     -- plugin for syntax highlighting
     "nvim-treesitter/nvim-treesitter",
     opts = {
-      ensure_installed = {"svelte"} -- here add any filetype you want to have syntax highlighting in
+      ensure_installed = {"svelte", "typescript"} -- here add any filetype you want to have syntax highlighting in
     }
   }
 }
